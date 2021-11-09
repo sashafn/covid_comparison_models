@@ -395,7 +395,7 @@ SEIR_results=function(dataset,begin_input,i_max_input,end_forecast)
   return(list(fitted_param,forecasted))
 }
 
-s=state_data("C:/Users/Andy/Documents/","al",popdf[popdf$initials=="al",2])
+s=state_data("/Users/sashafarzin-nia/Desktop/UCLA/Year 2/Thesis/coviddata/","al",popdf[popdf$initials=="al",2])
 results=SEIR_results(s,"2021-02-01",3, "2021-05-01")
 results
 
